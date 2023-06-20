@@ -14,7 +14,7 @@ public class Player {
     private Room room;
     @Column(name = "name")
     private String name;
-
+//test
 
     public void setRoom(Room room) {
         if (this.room == room) {
