@@ -24,7 +24,7 @@ export class RoomService {
     const url = `${this.apiEndpoint}/rooms/${roomId}/join`;
     const params = new HttpParams().set('playerName', playerName);
     
-    console.log('Trying to join, name: ' + playerName);
+    console.log('Trying to join, TEST name: ' + playerName);
   
     return this.http.post(url, null, { params });
   }
