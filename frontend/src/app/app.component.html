@@ -1,0 +1,10 @@
+<div>
+  <label for="playerName">Name:</label>
+  <input type="text" id="playerName" [(ngModel)]="playerName" placeholder="Enter your name">
+  
+  <label for="roomId">Room ID:</label>
+  <input type="text" id="roomId" [(ngModel)]="roomId" placeholder="Enter room ID">
+
+  <button (click)="createRoom()">Create Room</button>
+  <button (click)="joinRoom()">Join Room</button>
+</div>
